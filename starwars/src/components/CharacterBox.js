@@ -6,10 +6,10 @@ import styled from "styled-components"
 
 
 function CharacterBox(props){
-    const {data} = props
+    const {swdata} = props
     return(
      <div className='characterBox'>
-         {data.map(char => {
+         {swdata.map(char => {
              return <Character key={char.name} />
          }
          )}

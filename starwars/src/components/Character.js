@@ -2,14 +2,14 @@
 import React from 'react'
 
 function Character(props){
-    const {data} = props
+    const {swdata} = props
     return(
         <div className="Character">
-            <h2 className="name">{data.name}</h2>
+            <h2 className="name">{swdata.name}</h2>
             {/* <button>EXPAND</button> */}
-            <p className="birthYear">{data.birth_year}</p>
-            <p className="homeworld">{data.homeworld}</p>
-            <p className="films">{data.films}</p>
+            <p className="birthYear">{swdata.birth_year}</p>
+            <p className="homeworld">{swdata.homeworld}</p>
+            <p className="films">{swdata.films}</p>
         </div>
     )
 }
