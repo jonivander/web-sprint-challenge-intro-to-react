@@ -9,7 +9,7 @@ function CharacterBox(props){
     const {swdata} = props
     return(
      <div className='characterBox'>
-         {swdata.map(char => {
+         {swdata.map((char) => {
              return <Character key={char.name} />
          }
          )}

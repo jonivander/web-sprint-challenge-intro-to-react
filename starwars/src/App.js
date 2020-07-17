@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import axios from 'axios'
-import CharacterBox from './components/CharacterBox'
+import Character from './components/Character'
 import './App.css';
 import styled from "styled-components"
 
@@ -27,7 +27,7 @@ function App() {
   return (
     <div className="App">
       <h1 className="Header">Characters of the Star Wars Universe</h1>
-      <CharacterBox swdata = {swdata}/> 
+      <Character swdata = {swdata}/> 
     </div>
   );
 }
